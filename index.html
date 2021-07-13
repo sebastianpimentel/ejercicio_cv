@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Estilos.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <img class="img" src="./img/foto.jpg">
+    <div>
+        <h1><b>Sebastián Pimentel González</b></h1>
+        <li><b> 317 830 8330</b></li>
+        <li><b>Popayán Cauca</b></li>
+        <li><b>Correo Electronico sebastian.pimentel@siesa.com</b></li>
+       <div class="perfil">
+           <p><b>Ingeniero de sistemas comprometido con el trabajo para lograr los objetivos de la empresa, Integro, con alta
+            capacidad de autoaprendizaje, autogestion, conocimiento en PYHTON HTML5, SQL,CLOUD COMPUTING, actualmente me
+            encuentro realizando curso de Hacking Ético y Ciberseguridad en Udemy.</b></p>
+        </div>
+
+    </div>
+    <p><b>En cada boton puedes encontrar mas informacion</b></p>
+
+    <dialog id="ms">
+        <p>Ingeniero Informatico con conocimientos Javascriptm html5 manejo de base de datos SQL, me gusta el
+            autoaprendizaje debido a esto he realizado los cursos anteriormente menciondos cabe destacar que me
+            encuentro realizando un curso d Hacking etico y Ciberseguridad en la plataforma virtual de Udemy desde hace
+            poco mas de tres semanas. Me gradue de la Universidad en el año 2019 en le mes de junio, de la Institucion
+            Universitaria Colegio Mayor del Cauca, en el moemento trabajo y vivo en popayan con posibilidad de
+            transladarme a otras ciudades</p>
+        <button id="close" onclick="document.getElementById('ms').close()">Ok!</button>
+    </dialog>
+    <button class="button" id="show" onclick="document.getElementById('ms').show()">Presentacion</button>
+
+    <dialog id="ms2">
+
+        <p>
+        <h2>Educacion</h2>
+        <ul>
+            <li>Bachiller Tecnico en Metalisteria</li>
+            <li>Institucion Educativa Tecnico Industrial</li>
+            <li>Año de graduacion 07 de diciembre de 2012</li>
+        </ul>
+        <ul>
+            <li> Ingeniero Informatico</li>
+            <li>Institucion Universitaria Colegio Mayor del Cauca</li>
+            <li>Año de graduacion 26 de julio de 2019</li>
+        </ul>
+
+        </p>
+        <button id="close" onclick="document.getElementById('ms2').close()">Ok!</button>
+    </dialog>
+    <button class="button" id="show" onclick="document.getElementById('ms2').show()">Educacion</button>
+
+
+    <dialog id="ms3">
+
+        <p>
+        <h2>Cursos realizados</h2>
+        <li>SQL &nbsp; &nbsp; Intencidad 9 horas</li>
+        <li>Html5 &nbsp; &nbsp; Intencidad 40 horas</li>
+        <li>Python &nbsp; &nbsp;Intencidad 40 horas</li>
+        <li>Javascript &nbsp; &nbsp; Intencidad 40 horas</li>
+
+        </p>
+        <button id="close" onclick="document.getElementById('ms3').close()">Ok!</button>
+    </dialog>
+    <button class="button" id="show" onclick="document.getElementById('ms3').show()">Cursos Adicionales</button>
+
+</body>
+
+</html>
